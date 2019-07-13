@@ -29,8 +29,8 @@ let m_tot_len: i32;
 let SHA224_256_BLOCK_SIZE: i32 = (512/8);
 
 function SHFR(x: u32, n: i8): u32 {return x >> n};
-function ROTR(x: u32, n: i8): u32 {return ((x >> n) | (x << ((x.length() << 3) - n)))};
-function ROTL(x: u32, n: i8): u32 {return ((x << n) | (x >> ((x.length() << 3) -n )))};
+function ROTR(x: u32, n: i8): u32 {return ((x >> n) | (x << ((bswap(x)) - n)))};
+function ROTL(x: u32, n: i8): u32 {return ((x << n) | (x >> ((bswap(x)) -n )))};
 function CH(x, y, z) {return ((x & y) ^ (~x & z))};
 function MAJ(x, y, z) {return ((x & y) ^ (x & z) ^ (y & z))};
 function F1(x: u32): u32 {return (ROTR(x, 2) ^ ROTR(x, 13) ^ ROTR(x, 22))};
