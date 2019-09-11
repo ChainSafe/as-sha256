@@ -5,7 +5,7 @@ import wasm from "./wasm";
  * This allows users to not have to make AS a dependency in their project.
  * @param {Uint8Array} message Message to hash
  */
-export default function sha256(message) {
+export function hash(message) {
   // @ts-ignore
   const buf = new Uint8Array(Buffer.from(message));
   const arr = wasm.__retain(wasm.__allocArray(wasm.UINT8ARRAY_ID, buf));
