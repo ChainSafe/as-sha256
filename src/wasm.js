@@ -1,5 +1,1 @@
-try {
-  module.exports = require("./web");
-} catch (e) {
-  module.exports = require("./node");
-}
+module.exports = typeof window !== 'undefined' ? require("./web") : require("./node");
