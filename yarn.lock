@@ -697,11 +697,12 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@chainsafe/babel-plugin-inline-binary-import@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@chainsafe/babel-plugin-inline-binary-import/-/babel-plugin-inline-binary-import-1.0.0.tgz#44d21736aaaa5926565b53f1ad9b92245215060c"
-  integrity sha512-iebjSpKIWAag5xM+s5nIZvZXFnAHELucdsm/pRmjkaR6t7NJatQJk6shiPukS1H2eCfcIFfyKdqPjklzu+tjXw==
+"@chainsafe/babel-plugin-inline-binary-import@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@chainsafe/babel-plugin-inline-binary-import/-/babel-plugin-inline-binary-import-1.0.3.tgz#08dde20d91cf5d18f2c253edf32547943a16e409"
+  integrity sha512-LqAkjpdOinE5wHXAB0NkpyNNjAOQD1IgtOIke7xcXHTJB0zji02UirbzkWd//0DglNZYfJrvjBW87atM/z0s8w==
   dependencies:
+    core-js "2.6.10"
     require-resolve "0.0.2"
 
 "@protobufjs/utf8@^1.1.0":
@@ -1400,6 +1401,11 @@ core-js-compat@^3.1.1:
   dependencies:
     browserslist "^4.6.6"
     semver "^6.3.0"
+
+core-js@2.6.10:
+  version "2.6.10"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.10.tgz#8a5b8391f8cc7013da703411ce5b585706300d7f"
+  integrity sha512-I39t74+4t+zau64EN1fE5v2W31Adtc/REhzWN+gWRRXg6WH5qAsZm62DHpQ1+Yhe4047T55jvzz7MUqF/dBBlA==
 
 core-util-is@~1.0.0:
   version "1.0.2"

@@ -42,7 +42,7 @@
         "@babel/cli": "^7.6.0",
         "@babel/core": "^7.6.0",
         "@babel/preset-env": "^7.6.0",
-        "@chainsafe/babel-plugin-inline-binary-import": "^1.0.0",
+        "@chainsafe/babel-plugin-inline-binary-import": "^1.0.3",
         "babel-plugin-inline-import": "^3.0.0",
         "webpack": "^4.39.3",
         "webpack-cli": "^3.3.7"
