@@ -1,4 +1,11 @@
 {
-    "presets": ["@babel/preset-env"]
+    "presets": ["@babel/preset-env"],
+    "plugins": [
+        ["@chainsafe/babel-plugin-inline-binary-import", {
+            "extensions": [
+                ".wasm"
+            ]
+        }]
+    ]
 }
 
