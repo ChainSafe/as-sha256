@@ -23,7 +23,7 @@
         "prepublish": "yarn build",
         "build": "yarn asbuild:untouched && yarn asbuild:optimized && yarn build:lib",
         "asbuild:untouched": "asc assembly/index.ts -b build/untouched.wasm -t build/untouched.wat --runtime full --validate --debug",
-        "asbuild:optimized": "asc assembly/index.ts -b build/optimized.wasm -t build/optimized.wat --runtime full --validate -O3 --noAssert",
+        "asbuild:optimized": "asc assembly/index.ts -b build/optimized.wasm -t build/optimized.wat --runtime full --validate -O3z --noAssert",
         "build:lib": "babel src -d lib --copy-files",
         "build:web": "webpack --mode production --entry ./index.js --output ./dist/as-sha256.min.js",
         "test": "yarn run test:as-ci && yarn run test:unit",
@@ -35,7 +35,7 @@
         "test:as-ci": "asp --nortrace 2> /dev/null"
     },
     "dependencies": {
-        "assemblyscript": "0.8.1",
+        "assemblyscript": "0.9.1",
         "buffer": "^5.4.3"
     },
     "devDependencies": {
