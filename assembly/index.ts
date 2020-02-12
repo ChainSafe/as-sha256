@@ -54,7 +54,7 @@ function load8(ptr: usize, offset: usize): u8 {
 
 @inline
 function CH(x: u32, y: u32, z: u32): u32 {
-  return((x & y) ^ (~x & z));
+  return (x & y) ^ (~x & z);
 }
 
 @inline
