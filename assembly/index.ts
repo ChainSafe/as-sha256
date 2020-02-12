@@ -59,7 +59,7 @@ function CH(x: u32, y: u32, z: u32): u32 {
 
 @inline
 function MAJ(x: u32, y: u32, z:u32): u32 {
-  return ((x & y) ^ (x & z) ^ (y & z));
+  return (x & y) ^ (x & z) ^ (y & z);
 }
 
 @inline
