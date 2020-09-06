@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+    - "lts/*"
+
+cache:
+    yarn: true
+    directories:
+        - node_modules
+
+install: yarn
+
+jobs:
+    include:
+        - stage: Test
+          script: yarn run test
