@@ -15,8 +15,7 @@
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
-        "lib",
-        "build"
+        "lib"
     ],
     "scripts": {
         "prebuild": "rm -rf ./dist",
