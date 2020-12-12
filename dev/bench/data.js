@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1607814438560,
+  "lastUpdate": 1607815784827,
   "repoUrl": "https://github.com/ChainSafe/as-sha256",
   "entries": {
     "Benchmark.js Benchmark": [
@@ -238,6 +238,65 @@ window.BENCHMARK_DATA = {
             "range": "±0.31%",
             "unit": "ops/sec",
             "extra": "98 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "caymannava@gmail.com",
+            "name": "Cayman",
+            "username": "wemeetagain"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3fe48311c870298a273f9bb0c1e2e048263c3948",
+          "message": "Merge pull request #40 from ChainSafe/benchmark\n\nDisplay and monitor benchmark results",
+          "timestamp": "2020-12-12T16:28:41-07:00",
+          "tree_id": "463f2fb1804934124f2ff9113dede99f6ae20bb1",
+          "url": "https://github.com/ChainSafe/as-sha256/commit/3fe48311c870298a273f9bb0c1e2e048263c3948"
+        },
+        "date": 1607815784242,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "input length 32",
+            "value": 125347,
+            "range": "±1.71%",
+            "unit": "ops/sec",
+            "extra": "85 samples"
+          },
+          {
+            "name": "input length 64",
+            "value": 69401,
+            "range": "±1.56%",
+            "unit": "ops/sec",
+            "extra": "88 samples"
+          },
+          {
+            "name": "input length 128",
+            "value": 36406,
+            "range": "±2.30%",
+            "unit": "ops/sec",
+            "extra": "87 samples"
+          },
+          {
+            "name": "input length 256",
+            "value": 18531,
+            "range": "±1.79%",
+            "unit": "ops/sec",
+            "extra": "85 samples"
+          },
+          {
+            "name": "input length 512",
+            "value": 9063,
+            "range": "±2.06%",
+            "unit": "ops/sec",
+            "extra": "82 samples"
           }
         ]
       }
