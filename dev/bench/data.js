@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1599388467669,
+  "lastUpdate": 1607814438560,
   "repoUrl": "https://github.com/ChainSafe/as-sha256",
   "entries": {
     "Benchmark.js Benchmark": [
@@ -179,6 +179,65 @@ window.BENCHMARK_DATA = {
             "range": "±0.72%",
             "unit": "ops/sec",
             "extra": "87 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "caymannava@gmail.com",
+            "name": "Cayman",
+            "username": "wemeetagain"
+          },
+          "committer": {
+            "email": "caymannava@gmail.com",
+            "name": "Cayman",
+            "username": "wemeetagain"
+          },
+          "distinct": true,
+          "id": "994834074419db2e865e6bcaaeaebdd1e71988e1",
+          "message": "Update token name",
+          "timestamp": "2020-12-12T17:06:06-06:00",
+          "tree_id": "437917788e6a3f80920a24611f923086294ccfae",
+          "url": "https://github.com/ChainSafe/as-sha256/commit/994834074419db2e865e6bcaaeaebdd1e71988e1"
+        },
+        "date": 1607814437994,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "input length 32",
+            "value": 131691,
+            "range": "±0.22%",
+            "unit": "ops/sec",
+            "extra": "98 samples"
+          },
+          {
+            "name": "input length 64",
+            "value": 71462,
+            "range": "±0.15%",
+            "unit": "ops/sec",
+            "extra": "98 samples"
+          },
+          {
+            "name": "input length 128",
+            "value": 38689,
+            "range": "±0.22%",
+            "unit": "ops/sec",
+            "extra": "99 samples"
+          },
+          {
+            "name": "input length 256",
+            "value": 19882,
+            "range": "±0.59%",
+            "unit": "ops/sec",
+            "extra": "98 samples"
+          },
+          {
+            "name": "input length 512",
+            "value": 10268,
+            "range": "±0.31%",
+            "unit": "ops/sec",
+            "extra": "98 samples"
           }
         ]
       }
