@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1620141392748,
+  "lastUpdate": 1620141426361,
   "repoUrl": "https://github.com/ChainSafe/as-sha256",
   "entries": {
     "Benchmark.js Benchmark": [
@@ -429,6 +429,72 @@ window.BENCHMARK_DATA = {
             "range": "±0.99%",
             "unit": "ops/sec",
             "extra": "90 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "caymannava@gmail.com",
+            "name": "Cayman",
+            "username": "wemeetagain"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0a72a0f30e740f0718b9f4f4a0435e8c6556813d",
+          "message": "Merge pull request #41 from ChainSafe/dependabot/npm_and_yarn/http-proxy-1.18.1\n\nBump http-proxy from 1.18.0 to 1.18.1",
+          "timestamp": "2021-05-04T10:16:00-05:00",
+          "tree_id": "f7fbe455e924771f99e1e24e84f2db56c3ff49ad",
+          "url": "https://github.com/ChainSafe/as-sha256/commit/0a72a0f30e740f0718b9f4f4a0435e8c6556813d"
+        },
+        "date": 1620141425824,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "input length 32",
+            "value": 136277,
+            "range": "±0.33%",
+            "unit": "ops/sec",
+            "extra": "97 samples"
+          },
+          {
+            "name": "input length 64",
+            "value": 73164,
+            "range": "±0.11%",
+            "unit": "ops/sec",
+            "extra": "97 samples"
+          },
+          {
+            "name": "input digest-64",
+            "value": 76243,
+            "range": "±0.22%",
+            "unit": "ops/sec",
+            "extra": "96 samples"
+          },
+          {
+            "name": "input length 128",
+            "value": 39494,
+            "range": "±0.21%",
+            "unit": "ops/sec",
+            "extra": "97 samples"
+          },
+          {
+            "name": "input length 256",
+            "value": 20348,
+            "range": "±0.16%",
+            "unit": "ops/sec",
+            "extra": "99 samples"
+          },
+          {
+            "name": "input length 512",
+            "value": 10456,
+            "range": "±0.32%",
+            "unit": "ops/sec",
+            "extra": "98 samples"
           }
         ]
       }
