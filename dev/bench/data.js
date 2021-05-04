@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1620141454223,
+  "lastUpdate": 1620141472670,
   "repoUrl": "https://github.com/ChainSafe/as-sha256",
   "entries": {
     "Benchmark.js Benchmark": [
@@ -561,6 +561,72 @@ window.BENCHMARK_DATA = {
             "range": "±0.69%",
             "unit": "ops/sec",
             "extra": "94 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "caymannava@gmail.com",
+            "name": "Cayman",
+            "username": "wemeetagain"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "63fa268bcb097bd18157f52f6a2a569fa395a355",
+          "message": "Merge pull request #37 from ChainSafe/dependabot/npm_and_yarn/lodash-4.17.19\n\nBump lodash from 4.17.15 to 4.17.19",
+          "timestamp": "2021-05-04T10:15:35-05:00",
+          "tree_id": "c24ca1069a276e292ac4e2d5d3da76912fb9b2d3",
+          "url": "https://github.com/ChainSafe/as-sha256/commit/63fa268bcb097bd18157f52f6a2a569fa395a355"
+        },
+        "date": 1620141472159,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "input length 32",
+            "value": 111767,
+            "range": "±0.50%",
+            "unit": "ops/sec",
+            "extra": "93 samples"
+          },
+          {
+            "name": "input length 64",
+            "value": 60830,
+            "range": "±0.64%",
+            "unit": "ops/sec",
+            "extra": "95 samples"
+          },
+          {
+            "name": "input digest-64",
+            "value": 63274,
+            "range": "±0.37%",
+            "unit": "ops/sec",
+            "extra": "96 samples"
+          },
+          {
+            "name": "input length 128",
+            "value": 32683,
+            "range": "±0.39%",
+            "unit": "ops/sec",
+            "extra": "93 samples"
+          },
+          {
+            "name": "input length 256",
+            "value": 16898,
+            "range": "±0.33%",
+            "unit": "ops/sec",
+            "extra": "95 samples"
+          },
+          {
+            "name": "input length 512",
+            "value": 8700,
+            "range": "±0.28%",
+            "unit": "ops/sec",
+            "extra": "95 samples"
           }
         ]
       }
