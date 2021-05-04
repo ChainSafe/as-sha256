@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1620141484795,
+  "lastUpdate": 1620141558928,
   "repoUrl": "https://github.com/ChainSafe/as-sha256",
   "entries": {
     "Benchmark.js Benchmark": [
@@ -693,6 +693,72 @@ window.BENCHMARK_DATA = {
             "range": "±0.16%",
             "unit": "ops/sec",
             "extra": "99 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "caymannava@gmail.com",
+            "name": "Cayman",
+            "username": "wemeetagain"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4749ec0195ca7e1ac834f11c30a3dfbcefb1b4a9",
+          "message": "Merge pull request #46 from ChainSafe/dependabot/npm_and_yarn/elliptic-6.5.4\n\nBump elliptic from 6.5.2 to 6.5.4",
+          "timestamp": "2021-05-04T10:17:57-05:00",
+          "tree_id": "1be92d98ee21d59d4ba31232ecdc1872be9b0984",
+          "url": "https://github.com/ChainSafe/as-sha256/commit/4749ec0195ca7e1ac834f11c30a3dfbcefb1b4a9"
+        },
+        "date": 1620141555617,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "input length 32",
+            "value": 116229,
+            "range": "±1.61%",
+            "unit": "ops/sec",
+            "extra": "82 samples"
+          },
+          {
+            "name": "input length 64",
+            "value": 63840,
+            "range": "±1.63%",
+            "unit": "ops/sec",
+            "extra": "81 samples"
+          },
+          {
+            "name": "input digest-64",
+            "value": 65271,
+            "range": "±1.32%",
+            "unit": "ops/sec",
+            "extra": "83 samples"
+          },
+          {
+            "name": "input length 128",
+            "value": 35337,
+            "range": "±1.37%",
+            "unit": "ops/sec",
+            "extra": "83 samples"
+          },
+          {
+            "name": "input length 256",
+            "value": 17817,
+            "range": "±1.85%",
+            "unit": "ops/sec",
+            "extra": "82 samples"
+          },
+          {
+            "name": "input length 512",
+            "value": 8782,
+            "range": "±1.64%",
+            "unit": "ops/sec",
+            "extra": "79 samples"
           }
         ]
       }
