@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1620141568553,
+  "lastUpdate": 1620141587432,
   "repoUrl": "https://github.com/ChainSafe/as-sha256",
   "entries": {
     "Benchmark.js Benchmark": [
@@ -825,6 +825,72 @@ window.BENCHMARK_DATA = {
             "range": "±1.20%",
             "unit": "ops/sec",
             "extra": "90 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "caymannava@gmail.com",
+            "name": "Cayman",
+            "username": "wemeetagain"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "86ea30646fb40e5ebb7eb3d4c6dfb40b74289f0c",
+          "message": "Merge pull request #50 from ChainSafe/dependabot/npm_and_yarn/ssri-6.0.2\n\nBump ssri from 6.0.1 to 6.0.2",
+          "timestamp": "2021-05-04T10:18:32-05:00",
+          "tree_id": "1bbddbb421572be8626fa5313c9ed6b60ccb1a6c",
+          "url": "https://github.com/ChainSafe/as-sha256/commit/86ea30646fb40e5ebb7eb3d4c6dfb40b74289f0c"
+        },
+        "date": 1620141586758,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "input length 32",
+            "value": 104395,
+            "range": "±0.73%",
+            "unit": "ops/sec",
+            "extra": "88 samples"
+          },
+          {
+            "name": "input length 64",
+            "value": 55952,
+            "range": "±0.97%",
+            "unit": "ops/sec",
+            "extra": "85 samples"
+          },
+          {
+            "name": "input digest-64",
+            "value": 58120,
+            "range": "±1.00%",
+            "unit": "ops/sec",
+            "extra": "89 samples"
+          },
+          {
+            "name": "input length 128",
+            "value": 30377,
+            "range": "±0.87%",
+            "unit": "ops/sec",
+            "extra": "90 samples"
+          },
+          {
+            "name": "input length 256",
+            "value": 15611,
+            "range": "±0.91%",
+            "unit": "ops/sec",
+            "extra": "88 samples"
+          },
+          {
+            "name": "input length 512",
+            "value": 8200,
+            "range": "±0.93%",
+            "unit": "ops/sec",
+            "extra": "87 samples"
           }
         ]
       }
