@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1620143943760,
+  "lastUpdate": 1620327797835,
   "repoUrl": "https://github.com/ChainSafe/as-sha256",
   "entries": {
     "Benchmark.js Benchmark": [
@@ -957,6 +957,72 @@ window.BENCHMARK_DATA = {
             "range": "±0.38%",
             "unit": "ops/sec",
             "extra": "92 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "caymannava@gmail.com",
+            "name": "Cayman",
+            "username": "wemeetagain"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a42f89124c9f4abfc75ea4d124af255ecd6eef5b",
+          "message": "Merge pull request #53 from g11in/staticfix\n\nreplacing SHA256.ctx with staticInstance",
+          "timestamp": "2021-05-06T14:02:07-05:00",
+          "tree_id": "a61451b527a03cd3176256ba5080f1dd8bbe65c5",
+          "url": "https://github.com/ChainSafe/as-sha256/commit/a42f89124c9f4abfc75ea4d124af255ecd6eef5b"
+        },
+        "date": 1620327797272,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "input length 32",
+            "value": 110653,
+            "range": "±0.80%",
+            "unit": "ops/sec",
+            "extra": "92 samples"
+          },
+          {
+            "name": "input length 64",
+            "value": 61414,
+            "range": "±0.12%",
+            "unit": "ops/sec",
+            "extra": "94 samples"
+          },
+          {
+            "name": "input digest-64",
+            "value": 63326,
+            "range": "±0.27%",
+            "unit": "ops/sec",
+            "extra": "93 samples"
+          },
+          {
+            "name": "input length 128",
+            "value": 32635,
+            "range": "±0.36%",
+            "unit": "ops/sec",
+            "extra": "98 samples"
+          },
+          {
+            "name": "input length 256",
+            "value": 16922,
+            "range": "±0.32%",
+            "unit": "ops/sec",
+            "extra": "98 samples"
+          },
+          {
+            "name": "input length 512",
+            "value": 8661,
+            "range": "±0.20%",
+            "unit": "ops/sec",
+            "extra": "98 samples"
           }
         ]
       }
