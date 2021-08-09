@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1620341116715,
+  "lastUpdate": 1628523097681,
   "repoUrl": "https://github.com/ChainSafe/as-sha256",
   "entries": {
     "Benchmark.js Benchmark": [
@@ -1089,6 +1089,79 @@ window.BENCHMARK_DATA = {
             "range": "±0.33%",
             "unit": "ops/sec",
             "extra": "92 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "caymannava@gmail.com",
+            "name": "Cayman",
+            "username": "wemeetagain"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "359555414fa692bd8654820af9e17308f5249899",
+          "message": "Merge pull request #59 from g11tech/kptropt\n\noptimised w+k for digest64",
+          "timestamp": "2021-08-09T10:30:23-05:00",
+          "tree_id": "b895bc301f4e1890f51d9294f7935a3871d47785",
+          "url": "https://github.com/ChainSafe/as-sha256/commit/359555414fa692bd8654820af9e17308f5249899"
+        },
+        "date": 1628523096956,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "input length 32",
+            "value": 515090,
+            "range": "±1.01%",
+            "unit": "ops/sec",
+            "extra": "91 samples"
+          },
+          {
+            "name": "input length 64",
+            "value": 356245,
+            "range": "±1.10%",
+            "unit": "ops/sec",
+            "extra": "90 samples"
+          },
+          {
+            "name": "input digest-64",
+            "value": 439294,
+            "range": "±1.24%",
+            "unit": "ops/sec",
+            "extra": "91 samples"
+          },
+          {
+            "name": "input length 128",
+            "value": 263511,
+            "range": "±1.11%",
+            "unit": "ops/sec",
+            "extra": "88 samples"
+          },
+          {
+            "name": "input length 256",
+            "value": 181639,
+            "range": "±0.87%",
+            "unit": "ops/sec",
+            "extra": "94 samples"
+          },
+          {
+            "name": "input length 512",
+            "value": 109731,
+            "range": "±0.19%",
+            "unit": "ops/sec",
+            "extra": "94 samples"
+          },
+          {
+            "name": "input length 1024",
+            "value": 56406,
+            "range": "±0.68%",
+            "unit": "ops/sec",
+            "extra": "91 samples"
           }
         ]
       }
