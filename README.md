@@ -1,3 +1,6 @@
+This package is now maintained at https://github.com/ChainSafe/ssz/tree/master/packages/as-sha256
+--
+
 # as-sha256
 
 ![ES Version](https://img.shields.io/badge/ES-2015-yellow)
